@@ -1,0 +1,116 @@
+Insert into EQUIPOS (COD_E,NOMBRE_E,LOCALIDAD,ENTRENADOR,FECHA_CREACION) 
+values ('0','ratas','roquetas','Jorge','12/09/99');
+Insert into EQUIPOS (COD_E,NOMBRE_E,LOCALIDAD,ENTRENADOR,FECHA_CREACION) 
+values ('1','peleones','Agua Dulce','Juan','09/10/99');
+Insert into EQUIPOS (COD_E,NOMBRE_E,LOCALIDAD,ENTRENADOR,FECHA_CREACION) 
+values ('2','popeyes','El Solanillo','Dani','24/08/99');
+Insert into EQUIPOS (COD_E,NOMBRE_E,LOCALIDAD,ENTRENADOR,FECHA_CREACION) 
+values ('3','tupla','Las Marinas','Angel','09/09/99');
+
+
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('01','0','Jesus');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('02','0','Javi');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('03','0','Alvaro');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('04','0','Neus');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('05','0','Maria');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('06','1','Julian');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('07','1','Esme');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('08','1','Jose Manu');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('09','1','Julio');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('10','1','Jacobo');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('11','2','Angela');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('12','2','Manu');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('13','2','Nacho');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('14','2','Santi');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('15','2','Chema');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('16','3','Versy');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('17','3','Andrea');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('18','3','Paola');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('19','3','Victor');
+Insert into JUGADORES (COD_J,COD_E,NOMBRE_J) 
+values ('20','3','Ignacio');
+
+
+
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('0','1','01/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('0','2','02/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('0','3','03/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('1','2','04/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('2','3','05/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('1','3','06/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('2','1','07/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('3','1','08/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('1','0','09/01/20');
+Insert into ENCUENTROS (E_LOCAL,E_VISITANTE,FECHA) 
+values ('3','0','10/01/20');
+
+
+UPDATE ENCUENTROS
+SET P_LOCAL=150, P_VISITANTE=50
+WHERE FECHA='01/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=200, P_VISITANTE=100
+WHERE FECHA='02/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=170, P_VISITANTE=100
+WHERE FECHA='03/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=120, P_VISITANTE=80
+WHERE FECHA='04/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=130, P_VISITANTE=90
+WHERE FECHA='05/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=100, P_VISITANTE=50
+WHERE FECHA='06/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=52, P_VISITANTE=60
+WHERE FECHA='07/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=130, P_VISITANTE=60
+WHERE FECHA='08/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=100, P_VISITANTE=160
+WHERE FECHA='09/01/2020';
+
+UPDATE ENCUENTROS
+SET P_LOCAL=100, P_VISITANTE=180
+WHERE FECHA='10/01/2020';
+
+
